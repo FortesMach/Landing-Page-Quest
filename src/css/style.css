@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+
+body{
+    background-color: var(--primary-hard);
+}
+
+.header h1, .description h2, .content .description .register-btn{
+    font-family: 'Poppins', sans-serif;
+}
+
+.header i, .header h1, .content .description h2, .content .description p{
+    color: #fff;
+}
+
+.container{
+    background: url(../images/bg-desktop.svg)  center center no-repeat;
+    background-size: cover;
+    display: grid;
+    height: 100vh;
+    justify-content: center;
+    width: 100%;
+}
+
+.header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 35px 0 0 10px;
+}
+
+.header i{
+    font-size: 35px;
+}
+
+.header h1{
+    padding-left: 10px;
+    font-weight: 600;
+    font-size: 42px;
+}
+
+.content{
+    display: flex;
+    padding-top: 65px;
+}
+
+.content .description{
+    padding: 48px 0 0 42px;
+    width: 566px;
+}
+
+.content .description h2{
+    font-size: 39.5px;
+}
+
+.content .description p{
+    padding-top: 24px;
+    font-size: 18px;
+    line-height: 26px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.content .description .register-btn a{
+    color: var(--primary-hard);
+}
+
+.content .description li{
+    padding: 15px 0 15px 0;
+    transition: 0.5s;
+    background-color: #fff;
+    text-align: center;
+    font-size: 19px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 0px 2px rgba(0,0,0,0.3); 
+}
+
+.content .description .register-btn{
+    width: 200px;
+    margin-top: 30px;
+    
+}
+
+.content .description a:hover{
+    color: #fff;
+}
+
+.content .description li:hover{
+    background-color: var(--primary-soft);
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    gap: 17px;
+    padding-bottom: 17px;
+}
+
+.footer i{
+    border: 1px solid #fff;
+    border-radius: 100%;
+    padding: 10px;
+    font-size: 19px;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.footer .fa-brands.fa-facebook-f{
+    padding: 9px 12px;
+}
+
+.footer i:hover{
+    color: var(--primary-soft);
+    border: 1px solid var(--primary-soft)
+}
